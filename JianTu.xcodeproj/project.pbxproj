@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5E1BBF1D50E7EC00B2B4E1 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E1BBD1D50E7EC00B2B4E1 /* FontListViewController.m */; };
+		2B5E1BC01D50E7EC00B2B4E1 /* FontListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E1BBE1D50E7EC00B2B4E1 /* FontListViewController.xib */; };
+		2B5E1BC41D50E93500B2B4E1 /* FontListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E1BC21D50E93500B2B4E1 /* FontListCell.m */; };
+		2B5E1BC51D50E93500B2B4E1 /* FontListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E1BC31D50E93500B2B4E1 /* FontListCell.xib */; };
+		2B91CE551D4DE6C000C2B0FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91CE541D4DE6C000C2B0FE /* main.m */; };
+		2B91CE581D4DE6C000C2B0FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91CE571D4DE6C000C2B0FE /* AppDelegate.m */; };
+		2B91CE601D4DE6C000C2B0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91CE5F1D4DE6C000C2B0FE /* Assets.xcassets */; };
+		2B91CE751D4DE9E400C2B0FE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91CE731D4DE9E400C2B0FE /* HomeViewController.m */; };
+		2B91CE761D4DE9E400C2B0FE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B91CE741D4DE9E400C2B0FE /* HomeViewController.xib */; };
+		2BFD665D1D4E579C009A942C /* UIImage+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD665C1D4E579C009A942C /* UIImage+SU.m */; };
+		2BFD66601D4E680E009A942C /* UIView+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD665F1D4E680E009A942C /* UIView+SU.m */; };
+		2DB523DE51513B8830A9C99E /* libPods-JianTu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF74BB18300539D76E3916B /* libPods-JianTu.a */; };
+		B14366261D508468005100B1 /* WZMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B14366251D508468005100B1 /* WZMessage.m */; };
+		B16D071A1D51EDC7000B44F6 /* CameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D07191D51EDC7000B44F6 /* CameraRender.m */; };
+		B16D07221D520F84000B44F6 /* FontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D07211D520F84000B44F6 /* FontManager.m */; };
+		B16D07281D52140B000B44F6 /* WZNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D07261D52140B000B44F6 /* WZNetworkMonitor.m */; };
+		B16D072B1D521495000B44F6 /* SuFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D072A1D521495000B44F6 /* SuFile.m */; };
+		B16D07351D521515000B44F6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D07341D521515000B44F6 /* Reachability.m */; };
+		B16D07401D542DE9000B44F6 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D073E1D542DE9000B44F6 /* ShareView.m */; };
+		B16D07411D542DE9000B44F6 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16D073F1D542DE9000B44F6 /* ShareView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5E1BBC1D50E7EC00B2B4E1 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
+		2B5E1BBD1D50E7EC00B2B4E1 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
+		2B5E1BBE1D50E7EC00B2B4E1 /* FontListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FontListViewController.xib; sourceTree = "<group>"; };
+		2B5E1BC11D50E93500B2B4E1 /* FontListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListCell.h; sourceTree = "<group>"; };
+		2B5E1BC21D50E93500B2B4E1 /* FontListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListCell.m; sourceTree = "<group>"; };
+		2B5E1BC31D50E93500B2B4E1 /* FontListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FontListCell.xib; sourceTree = "<group>"; };
+		2B91CE501D4DE6C000C2B0FE /* JianTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B91CE541D4DE6C000C2B0FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B91CE561D4DE6C000C2B0FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B91CE571D4DE6C000C2B0FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B91CE5F1D4DE6C000C2B0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B91CE641D4DE6C000C2B0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B91CE721D4DE9E400C2B0FE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2B91CE731D4DE9E400C2B0FE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2B91CE741D4DE9E400C2B0FE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2BFD665B1D4E579C009A942C /* UIImage+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SU.h"; sourceTree = "<group>"; };
+		2BFD665C1D4E579C009A942C /* UIImage+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SU.m"; sourceTree = "<group>"; };
+		2BFD665E1D4E680E009A942C /* UIView+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SU.h"; sourceTree = "<group>"; };
+		2BFD665F1D4E680E009A942C /* UIView+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SU.m"; sourceTree = "<group>"; };
+		6BF74BB18300539D76E3916B /* libPods-JianTu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JianTu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AD84BB7E2EB79205D77753 /* Pods-JianTu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianTu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianTu/Pods-JianTu.debug.xcconfig"; sourceTree = "<group>"; };
+		B14366171D5058A9005100B1 /* SUDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUDefine.h; sourceTree = "<group>"; };
+		B14366221D5081BE005100B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B14366241D508468005100B1 /* WZMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMessage.h; sourceTree = "<group>"; };
+		B14366251D508468005100B1 /* WZMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMessage.m; sourceTree = "<group>"; };
+		B16D07181D51EDC7000B44F6 /* CameraRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraRender.h; sourceTree = "<group>"; };
+		B16D07191D51EDC7000B44F6 /* CameraRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraRender.m; sourceTree = "<group>"; };
+		B16D07201D520F84000B44F6 /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		B16D07211D520F84000B44F6 /* FontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontManager.m; sourceTree = "<group>"; };
+		B16D07251D52140B000B44F6 /* WZNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZNetworkMonitor.h; sourceTree = "<group>"; };
+		B16D07261D52140B000B44F6 /* WZNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZNetworkMonitor.m; sourceTree = "<group>"; };
+		B16D07291D521495000B44F6 /* SuFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuFile.h; sourceTree = "<group>"; };
+		B16D072A1D521495000B44F6 /* SuFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuFile.m; sourceTree = "<group>"; };
+		B16D07331D521515000B44F6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B16D07341D521515000B44F6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B16D073D1D542DE9000B44F6 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		B16D073E1D542DE9000B44F6 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		B16D073F1D542DE9000B44F6 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
+		E2E60F3C8BF8E2BDCF43B34C /* Pods-JianTu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianTu.release.xcconfig"; path = "Pods/Target Support Files/Pods-JianTu/Pods-JianTu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B91CE4D1D4DE6C000C2B0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB523DE51513B8830A9C99E /* libPods-JianTu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B91CE471D4DE6C000C2B0FE = {
+			isa = PBXGroup;
+			children = (
+				2B91CE521D4DE6C000C2B0FE /* JianTu */,
+				2B91CE511D4DE6C000C2B0FE /* Products */,
+				97DC1C11951103D706E4337C /* Pods */,
+				8B4C458682D311E51CCB118D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B91CE511D4DE6C000C2B0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B91CE501D4DE6C000C2B0FE /* JianTu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B91CE521D4DE6C000C2B0FE /* JianTu */ = {
+			isa = PBXGroup;
+			children = (
+				2B91CE561D4DE6C000C2B0FE /* AppDelegate.h */,
+				2B91CE571D4DE6C000C2B0FE /* AppDelegate.m */,
+				B14366151D5058A9005100B1 /* Define */,
+				B16D071C1D520F26000B44F6 /* Global */,
+				B14366271D50847F005100B1 /* Classes */,
+				B14366231D508468005100B1 /* SUKit */,
+				B16D072C1D5214C2000B44F6 /* Vender */,
+				2B91CE531D4DE6C000C2B0FE /* Supporting Files */,
+			);
+			path = JianTu;
+			sourceTree = "<group>";
+		};
+		2B91CE531D4DE6C000C2B0FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14366221D5081BE005100B1 /* PrefixHeader.pch */,
+				2B91CE5F1D4DE6C000C2B0FE /* Assets.xcassets */,
+				2B91CE641D4DE6C000C2B0FE /* Info.plist */,
+				2B91CE541D4DE6C000C2B0FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BFD665A1D4E5767009A942C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD665B1D4E579C009A942C /* UIImage+SU.h */,
+				2BFD665C1D4E579C009A942C /* UIImage+SU.m */,
+				2BFD665E1D4E680E009A942C /* UIView+SU.h */,
+				2BFD665F1D4E680E009A942C /* UIView+SU.m */,
+			);
+			name = Category;
+			path = ../Category;
+			sourceTree = "<group>";
+		};
+		8B4C458682D311E51CCB118D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF74BB18300539D76E3916B /* libPods-JianTu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97DC1C11951103D706E4337C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86AD84BB7E2EB79205D77753 /* Pods-JianTu.debug.xcconfig */,
+				E2E60F3C8BF8E2BDCF43B34C /* Pods-JianTu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B14366151D5058A9005100B1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				B14366171D5058A9005100B1 /* SUDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		B14366231D508468005100B1 /* SUKit */ = {
+			isa = PBXGroup;
+			children = (
+				B16D071B1D520EF9000B44F6 /* Core */,
+				2BFD665A1D4E5767009A942C /* Category */,
+			);
+			path = SUKit;
+			sourceTree = "<group>";
+		};
+		B14366271D50847F005100B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B16D07161D51ED0E000B44F6 /* View */,
+				B16D07151D51ED05000B44F6 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B16D07151D51ED05000B44F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B91CE721D4DE9E400C2B0FE /* HomeViewController.h */,
+				2B91CE731D4DE9E400C2B0FE /* HomeViewController.m */,
+				2B91CE741D4DE9E400C2B0FE /* HomeViewController.xib */,
+				2B5E1BBC1D50E7EC00B2B4E1 /* FontListViewController.h */,
+				2B5E1BBD1D50E7EC00B2B4E1 /* FontListViewController.m */,
+				2B5E1BBE1D50E7EC00B2B4E1 /* FontListViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B16D07161D51ED0E000B44F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E1BC11D50E93500B2B4E1 /* FontListCell.h */,
+				2B5E1BC21D50E93500B2B4E1 /* FontListCell.m */,
+				2B5E1BC31D50E93500B2B4E1 /* FontListCell.xib */,
+				B16D07181D51EDC7000B44F6 /* CameraRender.h */,
+				B16D07191D51EDC7000B44F6 /* CameraRender.m */,
+				B16D073D1D542DE9000B44F6 /* ShareView.h */,
+				B16D073E1D542DE9000B44F6 /* ShareView.m */,
+				B16D073F1D542DE9000B44F6 /* ShareView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B16D071B1D520EF9000B44F6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B16D07291D521495000B44F6 /* SuFile.h */,
+				B16D072A1D521495000B44F6 /* SuFile.m */,
+				B14366241D508468005100B1 /* WZMessage.h */,
+				B14366251D508468005100B1 /* WZMessage.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B16D071C1D520F26000B44F6 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B16D07251D52140B000B44F6 /* WZNetworkMonitor.h */,
+				B16D07261D52140B000B44F6 /* WZNetworkMonitor.m */,
+				B16D07201D520F84000B44F6 /* FontManager.h */,
+				B16D07211D520F84000B44F6 /* FontManager.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		B16D072C1D5214C2000B44F6 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				B16D07321D521515000B44F6 /* Reachability */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		B16D07321D521515000B44F6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B16D07331D521515000B44F6 /* Reachability.h */,
+				B16D07341D521515000B44F6 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B91CE4F1D4DE6C000C2B0FE /* JianTu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B91CE671D4DE6C000C2B0FE /* Build configuration list for PBXNativeTarget "JianTu" */;
+			buildPhases = (
+				761639998F6D33A6079E99C3 /* [CP] Check Pods Manifest.lock */,
+				2B91CE4C1D4DE6C000C2B0FE /* Sources */,
+				2B91CE4D1D4DE6C000C2B0FE /* Frameworks */,
+				2B91CE4E1D4DE6C000C2B0FE /* Resources */,
+				55774823F20C19F5E59D0361 /* [CP] Embed Pods Frameworks */,
+				CCDC9AE828A2ED7EAECDC24F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JianTu;
+			productName = JianTu;
+			productReference = 2B91CE501D4DE6C000C2B0FE /* JianTu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B91CE481D4DE6C000C2B0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KevinSu;
+				TargetAttributes = {
+					2B91CE4F1D4DE6C000C2B0FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B91CE4B1D4DE6C000C2B0FE /* Build configuration list for PBXProject "JianTu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B91CE471D4DE6C000C2B0FE;
+			productRefGroup = 2B91CE511D4DE6C000C2B0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B91CE4F1D4DE6C000C2B0FE /* JianTu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B91CE4E1D4DE6C000C2B0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5E1BC51D50E93500B2B4E1 /* FontListCell.xib in Resources */,
+				2B91CE601D4DE6C000C2B0FE /* Assets.xcassets in Resources */,
+				2B91CE761D4DE9E400C2B0FE /* HomeViewController.xib in Resources */,
+				B16D07411D542DE9000B44F6 /* ShareView.xib in Resources */,
+				2B5E1BC01D50E7EC00B2B4E1 /* FontListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55774823F20C19F5E59D0361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianTu/Pods-JianTu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761639998F6D33A6079E99C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDC9AE828A2ED7EAECDC24F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianTu/Pods-JianTu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B91CE4C1D4DE6C000C2B0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91CE581D4DE6C000C2B0FE /* AppDelegate.m in Sources */,
+				2B91CE551D4DE6C000C2B0FE /* main.m in Sources */,
+				2B5E1BBF1D50E7EC00B2B4E1 /* FontListViewController.m in Sources */,
+				B16D07281D52140B000B44F6 /* WZNetworkMonitor.m in Sources */,
+				B16D07401D542DE9000B44F6 /* ShareView.m in Sources */,
+				2B91CE751D4DE9E400C2B0FE /* HomeViewController.m in Sources */,
+				2B5E1BC41D50E93500B2B4E1 /* FontListCell.m in Sources */,
+				B16D071A1D51EDC7000B44F6 /* CameraRender.m in Sources */,
+				B16D07221D520F84000B44F6 /* FontManager.m in Sources */,
+				2BFD66601D4E680E009A942C /* UIView+SU.m in Sources */,
+				B16D07351D521515000B44F6 /* Reachability.m in Sources */,
+				B14366261D508468005100B1 /* WZMessage.m in Sources */,
+				B16D072B1D521495000B44F6 /* SuFile.m in Sources */,
+				2BFD665D1D4E579C009A942C /* UIImage+SU.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B91CE651D4DE6C000C2B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B91CE661D4DE6C000C2B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B91CE681D4DE6C000C2B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AD84BB7E2EB79205D77753 /* Pods-JianTu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JianTu/PrefixHeader.pch;
+				INFOPLIST_FILE = JianTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.JianTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B91CE691D4DE6C000C2B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E60F3C8BF8E2BDCF43B34C /* Pods-JianTu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JianTu/PrefixHeader.pch;
+				INFOPLIST_FILE = JianTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.JianTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B91CE4B1D4DE6C000C2B0FE /* Build configuration list for PBXProject "JianTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91CE651D4DE6C000C2B0FE /* Debug */,
+				2B91CE661D4DE6C000C2B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B91CE671D4DE6C000C2B0FE /* Build configuration list for PBXNativeTarget "JianTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91CE681D4DE6C000C2B0FE /* Debug */,
+				2B91CE691D4DE6C000C2B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B91CE481D4DE6C000C2B0FE /* Project object */;
+}
